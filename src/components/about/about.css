@@ -1,0 +1,104 @@
+.aboutHome {
+  height: auto;
+  background-image: url('../../../public/images/בניינים.png'); /* נתיב לתמונה שלך */
+  background-size: cover; /* שהתמונה תתמלא ברקע */
+  background-position: center; /* שהתמונה תהיה ממורכזת */
+}
+.aboutHome #heading {
+  text-align: right;
+  padding: 0;
+  margin-right: 5px;
+}
+.aboutHome .left img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.aboutHome .right {
+  padding: 80px 50px;
+}
+.aboutHome .items {
+  margin-top: 50px;
+}
+.aboutHome .item {
+  display: flex; /* יוצר שורה */
+  justify-content: space-between; /* מרווח שווה בין כל אחד */
+  display: flex; /* יוצר שורה */
+  justify-content: space-between; /* מרווח שווה בין כל אחד */
+  gap: 20px; /* רווח בין האלמנטים */
+  background-color: #fff;
+  margin-top: 30px;
+  padding: 20px;
+  transition: 0.5s;
+  flex: 1; /* כל אחד יתפוס את אותו רוחב */
+  text-align: center; /* ממרכז את התוכן בתוך כל אלמנט */
+
+}
+.aboutHome .img {
+  width: 200px;
+}
+.aboutHome img {
+  width: 70px;
+  height: 70px;
+}
+.aboutHome .item h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.aboutHome .item p {
+  color: #999999;
+  text-align: center;
+}
+
+.aboutHome .item:hover {
+  background-color: #1eb2a6;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+}
+.aboutHome .item:hover p {
+  color: #fff;
+}
+/*----------awrapper------------*/
+
+.awrapper .box {
+  padding: 70px 0;
+}
+.awrapper img {
+  margin-right: 30px;
+}
+.awrapper h1 {
+  font-size: 50px;
+}
+.awrapper h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between; /* תוודא שיש מרווח שווה בין כל אחד */
+  gap: 20px; /* אם אתה רוצה להוסיף רווח בין האלמנטים */
+}
+
+.feature {
+  flex: 1; /* אם אתה רוצה שכולם יתפוס את אותו רוחב */
+  text-align: center; /* אם אתה רוצה שהכותרת והפסקה יהיו במרכז */
+}
+
+.feature h3 {
+  margin-bottom: 10px; /* מרווח קטן בין הכותרת לתיאור */
+}
+
+/*----------awrapper------------*/
+@media screen and (max-width: 768px) {
+  .aboutHome .container {
+    flex-direction: column-reverse;
+  }
+  .aboutHome .row {
+    width: 100%;
+  }
+  .awrapper {
+    height: 50vh;
+  }
+}
