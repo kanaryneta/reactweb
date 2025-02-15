@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/reactWeb/static/css/main.2b6e1be9.css",
+    "main.js": "/reactWeb/static/js/main.ef1cb2cb.js",
+    "static/media/בניינים.png": "/reactWeb/static/media/בניינים.c1dadff4eab9c36f777f.png",
+    "static/media/bluebackofer.png": "/reactWeb/static/media/bluebackofer.895d28fda55b6158d549.png",
+    "static/media/back.webp": "/reactWeb/static/media/back.93d3f802b480eeabae07.webp",
+    "index.html": "/reactWeb/index.html",
+    "main.2b6e1be9.css.map": "/reactWeb/static/css/main.2b6e1be9.css.map",
+    "main.ef1cb2cb.js.map": "/reactWeb/static/js/main.ef1cb2cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2b6e1be9.css",
+    "static/js/main.ef1cb2cb.js"
+  ]
+}
