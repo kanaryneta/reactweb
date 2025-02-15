@@ -1,7 +1,7 @@
 {
   "name": "education-academia",
   "version": "0.1.0",
-  "homepage": "https://kanaryneta.github.io/reactWeb",
+  "homepage": "https://kanaryneta.github.io/reactweb",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.9.0",
