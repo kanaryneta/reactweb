@@ -25,6 +25,7 @@
     height: 40vh;
   }
   .hero {
+    background-image: url("../../../../public/images/bluebackofer.png");
     background-position: right;
     padding-top: 50%;
     height: 80vh;
